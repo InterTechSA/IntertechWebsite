@@ -1,0 +1,29 @@
+input{
+    text-align: center;
+    color: black;
+    border-radius: 25px;
+    height: 30px;
+    border: 2px;
+    background-color: cornsilk;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+textarea{
+    color: black;
+    background-color: cornsilk;
+    height: 120px;
+    width: 260px;
+    border-radius: 15px;
+    text-align:center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+button{
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    height: 40px;
+    width: 120px;
+  
+  border-radius: 25px;
+}
+a{
+    color:white;
+}

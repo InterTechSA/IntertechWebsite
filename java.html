@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn To Code</title>
+    <link rel="stylesheet" href="java.css">
+    <link rel="icon" href="Intertechsa.jpg" type="image/icon type">
+</head>
+
+<body>
+
+
+    <h1>What is Java?</h1>
+    <div>
+        <h2>Variables </h2>
+
+        <p>
+            We use variables to temporarily store data in computer’s memory. In Java, the type
+            of a variable should be specified at the time of declaration.
+            In Java, we have two categories of types:
+            <br>
+            • Primitives: for storing simple values like numbers, strings and booleans.
+            <br>
+            • Reference Types: for storing complex objects like email messages.
+            <br>
+        <h2>Primitive Types</h2>
+        Declaring Variables<br>
+        byte age = 30;<br>
+        long viewsCount = 3_123_456L;<br>
+        float price = 10.99F;<br>
+        char letter = ‘A’;<br>
+        boolean isEligible = true;<br>
+        • In Java, we terminate statements with a semicolon.<br>
+        Type | Bytes | Range<br>
+        byte | 1 | [-128, 127]<br>
+        short | 2 | [-32K, 32K]<br>
+        int |4 |[-2B, 2B]<br>
+        long | 8<br>
+        float 4<br>
+        double 8<br>
+        char 2 A, B, C, …<br>
+        boolean 1 true / false
+        • We enclose characters with single quotes and strings (series of characters) with
+        double quotes.<br>
+        • The default integer type in Java is int. To represent a long value, we should add L
+        to it as a postfix.<br>
+        • The default floating-point type in Java is double. To represent a float, we should
+        append F to it as a postfix.
+        </p>
+    </div>
+    <br>
+    <div>
+        <h2>Comments</h2>
+        <p>
+            We use comments to add notes to our code.
+            // This is a comment and it won’t get executed.
+        </p>
+    </div>
+    <br>
+    <div>
+        <h2>Receiving Input</h2>
+        <p>
+            We can receive input from the user by calling the input() function.
+            birth_year = int(input(‘Birth year: ‘))
+            The input() function always returns data as a string. So, we’re converting the
+            result into an integer by calling the built-in int() function.
+        </p>
+    </div>
+
+    <br>
+    <div>
+
+        <h2> Strings</h2>
+        <p>
+            We can define strings using double (“ “) quotes.
+            </br>
+            To define a multi-line string, we surround our string with tripe quotes (“””).
+            <br>
+            We can get individual characters in a string using square brackets [].
+        <ul>
+            <li> startsWith(“a”)</li>
+            <li> endsWith(“a”) </li>
+            <li> length()</li>
+            <li> indexOf(“a”) </li>
+            <li> replace(“a”, “b”) </li>
+            <li> toUpperCase() </li>
+            <li> toLowerCase() </li>
+
+        </ul>
+        </p>
+    </div>
+    <br>
+    <div>
+        <h2>Arithmetic Operations</h2>
+        <ul>
+            <li>+</li>
+            <li>-</li>
+            <li>*</li>
+            <li>/ # returns a float</li>
+            <li>// # returns an int</li>
+            <li>% # returns the remainder of division</li>
+            <li>** # exponentiation - x ** y = x to the power of y</li>
+
+
+        </ul>
+        <h2> Assignment operator:</h2>
+        <ul>
+            <li>x = x + 10</li>
+            <li> x += 10</li>
+
+        </ul>
+        <h2>Operator precedence:</h2>
+        <ol>
+            <li>parenthesis</li>
+            <li>exponentiation</li>
+            <li>multiplication / division</li>
+            <li>addition / subtraction</li>
+
+
+        </ol>
+        <h2>Comparison operators</h2>
+        <ul>
+            <li> a > b</li>
+            <li>a >= b (greater than or equal to)</li>
+            <li> a==b (equals)</li>
+            <li> a !=b (not equals)</li>
+        </ul>
+
+
+
+
+
+    </div>
+    <br>
+    <div>
+        <p>
+        <h1>If Statements</h1>
+        if (temp >21):
+        <br>
+        System.ou.print(“hot day”)
+        <br>
+        else if(temp==21):
+        <br>
+        System.ou.print(“cool day”)
+        <br>
+        else:
+        <br>
+        System.ou.print("Cold day")
+        <br>
+        
+        </p>
+
+    </div>
+    <br>
+
+    <br>
+    <div>
+        <h2>While loops</h2>
+        <p>
+            i=1 <br>
+            while (i < 5):<br>
+
+            System.ou.print(i)<br>
+                i +=1
+                <br>
+                <h2>For loops</h2>
+                for (int i=0;i< 5;i++)
+                <br> System.ou.print(i)<br>
+               : generates 0, 1,
+                2, 3, 4 <br> 
+    </div>
+    <br>
+    <div>
+        <h2>Arrays</h2>
+        numbers=[1, 2, 3, 4, 5]
+        <br>
+        numbers[0] # returns the first item
+        <br>numbers[1] # returns the second item
+        <br>
+        <h2>ArrayList</h2>
+        numbers.append(6) # adds 6 to the end
+        <br>numbers.insert(0, 6) # adds 6 at index position of 0
+        <br>numbers.remove(6) # removes 6 <br>numbers.pop() #
+        removes
+        the last item
+        <br>numbers.clear()
+        <br># removes all the items
+        <br>numbers.index(8) # returns the index of first
+        occurrence of 8
+        <br>numbers.sort() # sorts the list
+        <br> numbers.reverse() # reverses the list
+        <br> numbers.copy() #
+        returns a copy of the list
+    </div>
+    <br>
+    
+    
+    
+    <div>
+        <h2>Exceptions</h2>
+        Exceptions are errors that crash our programs.
+        They often happen because of bad input or programming errors.
+        It’s our job to anticipate and handle these
+        exceptions to prevent our programs from cashing.
+        <br>
+        try: age=int(input(‘Age: ‘)) income=20000 risk=income / age
+        print(age)<br>
+        except ValueError: print(‘Not a valid number’) except ZeroDivisionError: print(‘Age cannot be 0’)
+    </div>
+    <br>
+    <div>
+        <h1>Classes</h1>
+        We use classes to define new types. <br>class Point: def __init__(self, x, y): self.x=x self.y=y def
+        move(self): print(“move”)
+        <br>When a function is part of a class, we refer to it as a method.
+        <br> Classes define
+        templates or blueprints for creating objects. An object is an instance of a class. Every time we
+        create a
+        new instance, that instance follows the structure we define using the class. <br>
+        point1=Point(10, 5)
+        point2=Point(2, 4)
+        <br> __init__ is a special method called constructor.
+        <br>It gets called at the time of
+        creating
+        new objects. We use it to initialize our objects.
+    </div>
+    <br>
+    <div>
+        <h2>Inheritance</h2>
+        Inheritance is a technique to remove
+        code
+        duplication.<br> We can create a base class to define the common methods and then have other classes
+        inherit
+        these methods.<br> class Mammal: def walk(self): print(“walk”)<br> class Dog(Mammal): <br>def bark(self):
+        print(“bark”)
+        dog=Dog() <br>dog.walk() # inherited from Mammal dog.bark() <br># defined in Dog Modules A module is a file
+        with
+        some Python code.
+    </div>
+
+    <br>
+    <div>
+        <h2>Module</h2>
+        weuse modules to break up our program into multiple files. This way, our code
+        will be
+        better organized.<br> We won’t have one gigantic file with a million lines of code in it! <br>There are 2
+        ways to
+        import modules: we can import the entire module, or specific objects in a module. # importing the
+        entire
+        converters module import converters converters.kg_to_lbs(5)<br> # importing one function in the
+        converters
+        module from converters import kg_to_lbs kg_to_lbs(5)
+    </div>
+    <br>
+    <div>
+        <h2>Packages</h2>
+        package is a directory with
+        __init__.py in
+        it. <br>
+        It can contain one or more modules.
+        <br> # importing the entire sales module from ecommerce import
+        sales
+        sales.calc_shipping()
+        <br># importing one function in the sales module from ecommerce.sales import
+        calc_shipping
+        calc_shipping()
+        <br>Python Standard Library Python comes with a huge library of modules for performing
+
+        common
+        tasks such as sending emails, working with date/time, generating random values, etc.
+        <br>
+    </div>
+    <br>
+    <div>
+        <h2>Random Module</h2>
+
+        import
+        random random.random() # returns a float between 0 to 1 random.randint(1, 6) # returns an int
+        between 1 to 6
+        members=[‘John’, ‘Bob’, ‘Mary’] leader=random.choice(members) # randomly picks an item Pypi Python
+        Package
+        Index (pypi.org) is a directory of Python packages published by Python developers around the world.
+        We use
+        pip to install or uninstall these packages. pip install openpyxl pip uninstall openpyxl </p>
+    </div>
+    <br>
+    <div>
+        <a href="InterTechSA.html">Home</a>
+    </div>
+
+
+</body>
+
+</html>
